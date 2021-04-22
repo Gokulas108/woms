@@ -1,0 +1,40 @@
+
+.topBar{
+    position: fixed;
+    background-color: #C10000 ;
+    top: 0px;
+    width: 100%;
+    height: 60px;
+    z-index: 200;
+}
+
+.sideBar{
+    position: fixed;
+    background-color: black;
+    padding-top: 70px;
+    left: 0px;
+    width: 180px;
+    height: 100%;
+    z-index: 100;
+}
+
+.sideBar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+}
+  
+.sideBar a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+.sideBar a.active {
+    color: #f1f1f1;
+}
+
+.main{
+    position: absolute;
+    margin: 65px 0px 0px 185px;
+}
